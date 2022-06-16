@@ -1,0 +1,27 @@
+if then statement
+if this happens = do this
+otherwise       = do that
+============
+#!/bin/bash
+
+#check the variable
+
+count=100
+if [$count -eq 100]
+
+then
+
+echo Count is 100
+
+else
+
+echo count is not 100
+
+fi
+
+
+----------------
+[root@localhost conditions_scripts]# sh ifthen_script
+ifthen_script: line 6: [100: command not found                      //why this line came//
+Count is not 100
+[root@localhost conditions_scripts]# 
